@@ -1,0 +1,11 @@
+.navigation {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
