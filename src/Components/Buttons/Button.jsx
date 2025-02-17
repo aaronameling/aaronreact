@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Button.module.css'
 
-function Button() {
+function Button(props) {
     return (
         <>
-            <button className={styles.buttonContainer}>Kontakt</button>
+            <button className={styles.buttonContainer}>{props.text}</button>
         </>
     );
 }

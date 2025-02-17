@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "Nico Moji";
+    src: url('../../../public/Assets/Fonts/NicoMoji-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .buttonContainer {
     border: none;
     text-decoration: none;
     font-size: 1.5625em;
+    font-family: "Nico Moji", sans-serif;
     border-radius: 1.5625em;
     background-color: #234411;
     color: #fcc872;

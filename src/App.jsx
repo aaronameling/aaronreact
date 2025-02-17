@@ -1,12 +1,12 @@
 import Button from "./Components/Buttons/Button";
+import Navigation from "./Components/Navigations/Navigation";
 
 
 function App() {
   return (
     <>
       <div>
-          <p>Hallo</p>
-          <Button/>
+          <Navigation/>
       </div>
     </>
   );
