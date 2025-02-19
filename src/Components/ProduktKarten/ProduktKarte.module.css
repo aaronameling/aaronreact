@@ -1,0 +1,57 @@
+.produktKarte {
+    width: 30em;
+    height: 44em;
+    background-color: rgba(255, 255, 255, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.625em;
+    text-align: center;
+    box-shadow: 0 0.3125em 0.4375em rgba(0, 0, 0, 0.5);
+}
+
+.produktIMG {
+    width: 97%;
+}
+
+.name {
+    text-align: center;
+    font-family: "Nico Moji", sans-serif;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.kategorie {
+    font-family: "Nico Moji", sans-serif;
+    font-size: 2.7em;
+    margin: 0 0 0.01em;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+.button {
+    font-family: "Acme", sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #FCC872;
+    background-color: rgba(35, 68, 18, 0.7);
+    padding: 0.15em 0.5em 0.15em;
+    border-radius: 1.5625em;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgba(35, 68, 18, 0.9);
+}

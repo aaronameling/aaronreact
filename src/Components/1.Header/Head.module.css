@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.headContainer {
+    display: flex;
+}
+
+.imgBox1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img {
+    width: 100vw;
+    height: auto;
+}

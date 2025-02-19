@@ -1,0 +1,10 @@
+.textBox {
+    margin: 0;
+    background-color: #234411;
+    text-align: center;
+    font-size: 2.5em;
+    color: #FCC872;
+    line-height: 1.7;
+    padding: 1em;
+    font-family: "Nico Moji", sans-serif;
+}

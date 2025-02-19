@@ -1,0 +1,17 @@
+.footBox p {
+    font-size: 1.2em;
+    color: #FCC872;
+    font-family: "Acme", sans-serif;
+}
+
+.topic {
+    font-size: 2.5em;
+    font-family: "Acme", sans-serif;
+    color: #FCC872;
+}
+
+.underline {
+    width: 10.5em;
+    height: 0.25em;
+    background-color: #FCC872;
+}

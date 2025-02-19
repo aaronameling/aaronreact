@@ -1,13 +1,17 @@
-import Button from "./Components/Buttons/Button";
-import Navigation from "./Components/Navigations/Navigation";
+import Head from "./Components/1.Header/Head";
+import BodyText from "./Components/2.Bodys/BodyText"
+import BodyProdukt from "./Components/2.Bodys/BodyProdukt";
+import Footer from "./Components/3.Footer/Footer"
+
 
 
 function App() {
   return (
     <>
-      <div>
-          <Navigation/>
-      </div>
+        <Head/>
+        <BodyText/>
+        <BodyProdukt/>
+        <Footer/>
     </>
   );
 }

@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Acme";
+    src: url('../../../public/Assets/Fonts/Acme-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .buttonContainer {
     border: none;
     text-decoration: none;
@@ -15,4 +22,11 @@
     color: #fcc872;
     padding: 0.5625em 0.9375em 0.625em;
     display: flex;
+}
+
+.buttonContainer:hover {
+    background-color: #FCC872;
+    color: #234412;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.9);
 }
